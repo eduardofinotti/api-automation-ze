@@ -281,23 +281,60 @@ a {
 <div class="results">
 <div id="div_group_1" class="example_group passed">
   <dl style="margin-left: 0px;">
-  <dt id="example_group_1" class="passed">Validar a api de Livros</dt>
-    <script type="text/javascript">moveProgressBar('16.6');</script>
-    <dd class="example passed"><span class="passed_spec_name">Deve retornar 200 para a request valida</span><span class='duration'>1.86542s</span></dd>
-    <script type="text/javascript">moveProgressBar('33.3');</script>
-    <dd class="example passed"><span class="passed_spec_name">Deve retornar o content-type application/json; charset=utf-8</span><span class='duration'>1.83144s</span></dd>
-    <script type="text/javascript">moveProgressBar('50.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">O retorno não deve ser vazio</span><span class='duration'>1.82073s</span></dd>
-    <script type="text/javascript">moveProgressBar('66.6');</script>
-    <dd class="example passed"><span class="passed_spec_name">Deve retornar as tipagens de acordo com a documentação</span><span class='duration'>1.81586s</span></dd>
-    <script type="text/javascript">moveProgressBar('83.3');</script>
-    <dd class="example passed"><span class="passed_spec_name">Deve retornar as tipagens de acordo com a documentação para quando consultamos um livro especifico</span><span class='duration'>0.67311s</span></dd>
-    <script type="text/javascript">moveProgressBar('100.0');</script>
-    <dd class="example passed"><span class="passed_spec_name">Deve adicionar um livro aos demais</span><span class='duration'>0.59661s</span></dd>
+  <dt id="example_group_1" class="passed">Validar o contrato da api de previsão do tempo openweathermap</dt>
+    <script type="text/javascript">moveProgressBar('4.5');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar as tipagens de acordo com a documentação</span><span class='duration'>0.69949s</span></dd>
   </dl>
 </div>
-<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>8.62518 seconds</strong>";</script>
-<script type="text/javascript">document.getElementById('totals').innerHTML = "6 examples, 0 failures";</script>
+<div id="div_group_2" class="example_group passed">
+  <dl style="margin-left: 0px;">
+  <dt id="example_group_2" class="passed">Validar os retornos da api de previsão do tempo openweathermap</dt>
+    <script type="text/javascript">moveProgressBar('9.0');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve pegar o ID da cidade informada</span><span class='duration'>0.58680s</span></dd>
+    <script type="text/javascript">moveProgressBar('13.6');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar 200 para a request valida</span><span class='duration'>0.61263s</span></dd>
+    <script type="text/javascript">moveProgressBar('18.1');</script>
+    <dd class="example passed"><span class="passed_spec_name">O retorno não deve ser vazio</span><span class='duration'>0.61699s</span></dd>
+    <script type="text/javascript">moveProgressBar('22.7');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar as coordenadas da cidade</span><span class='duration'>0.53364s</span></dd>
+    <script type="text/javascript">moveProgressBar('27.2');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar as coordenadas cidade pelo código</span><span class='duration'>0.45199s</span></dd>
+    <script type="text/javascript">moveProgressBar('31.8');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar o tempo da cidade</span><span class='duration'>0.64914s</span></dd>
+    <script type="text/javascript">moveProgressBar('36.3');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar o tempo da cidade pelo código</span><span class='duration'>0.73497s</span></dd>
+    <script type="text/javascript">moveProgressBar('40.9');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar o &#39;base&#39; da informação pela cidade</span><span class='duration'>0.55643s</span></dd>
+    <script type="text/javascript">moveProgressBar('45.4');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar o &#39;base&#39; da informação pelo código da cidade</span><span class='duration'>0.56002s</span></dd>
+    <script type="text/javascript">moveProgressBar('50.0');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar detalhes do tempo da cidade</span><span class='duration'>0.60491s</span></dd>
+    <script type="text/javascript">moveProgressBar('54.5');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar detalhes do tempo da cidade pelo código</span><span class='duration'>0.61448s</span></dd>
+    <script type="text/javascript">moveProgressBar('59.0');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar a visibilidade da cidade</span><span class='duration'>0.61380s</span></dd>
+    <script type="text/javascript">moveProgressBar('63.6');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar a visibilidade da cidade pelo código</span><span class='duration'>0.63847s</span></dd>
+    <script type="text/javascript">moveProgressBar('68.1');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar informações do vento da cidade</span><span class='duration'>0.58960s</span></dd>
+    <script type="text/javascript">moveProgressBar('72.7');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar informações do vento da cidade pelo código</span><span class='duration'>0.61478s</span></dd>
+    <script type="text/javascript">moveProgressBar('77.2');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar informações das nuvens da cidade</span><span class='duration'>0.61376s</span></dd>
+    <script type="text/javascript">moveProgressBar('81.8');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar informações das nuvens da cidade pelo código</span><span class='duration'>0.61449s</span></dd>
+    <script type="text/javascript">moveProgressBar('86.3');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar informações do tempo de calculo do clima da cidade</span><span class='duration'>0.53682s</span></dd>
+    <script type="text/javascript">moveProgressBar('90.9');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar informações do tempo de calculo do clima da cidade pelo código</span><span class='duration'>0.50535s</span></dd>
+    <script type="text/javascript">moveProgressBar('95.4');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar informações da cidade</span><span class='duration'>0.59538s</span></dd>
+    <script type="text/javascript">moveProgressBar('100.0');</script>
+    <dd class="example passed"><span class="passed_spec_name">Deve retornar informações da cidade pelo código</span><span class='duration'>0.52526s</span></dd>
+  </dl>
+</div>
+<script type="text/javascript">document.getElementById('duration').innerHTML = "Finished in <strong>13.07657 seconds</strong>";</script>
+<script type="text/javascript">document.getElementById('totals').innerHTML = "22 examples, 0 failures";</script>
 </div>
 </div>
 </body>

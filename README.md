@@ -1,4 +1,4 @@
-# HTTParty + Rspec + Rake
+# Testes autoamtizafos para a API openweathermap
 
 Projeto de exemplo para implementação de testes para API's Rest utilizando o HTTParty + Rspec + Rake
 
@@ -15,25 +15,9 @@ Projeto de exemplo para implementação de testes para API's Rest utilizando o H
 	- expect
 - **Httparty**
 	- get
-	- post
 - **Rake**
     - Task
 
-## Estrutura de pastas
-
-```
-📦httparty_rspec
- ┣ 📂reports
- ┃ ┗ 📜rspec_results.html
- ┣ 📂spec
- ┃ ┣ 📜books_test.rb
- ┃ ┗ 📜spec_helper.rb
- ┣ 📜.rspec
- ┣ 📜Gemfile
- ┣ 📜Gemfile.lock
- ┣ 📜README.md
- ┗ 📜Rakefile
-```
 ## Tutorial, Instalação e execução
 
 #### **Ter previamente o ruby instalado em sua máquina**
@@ -43,6 +27,11 @@ Projeto de exemplo para implementação de testes para API's Rest utilizando o H
 #### Instalar o bundler
 `gem install bundler`
 
-####  E seguir o tutorial no post abaixo: 
+`bundle install`
 
-[Iniciando os testes de serviços com HTTParty e Rspec](https://medium.com/cwi-software/https-medium-com-maximilianoalves-iniciando-testes-de-servicos-com-httparty-e-rspec-366fe93525ab "Iniciando os testes de serviços com HTTParty e Rspec")
+####  Para executar os testes: 
+`rake spec CITY=<cidade>,<country>` 
+
+Exemplo: `rake spec CITY=London,uk` 
+
+Observação: Para esta API é necessário enviar uma key de usuário. Uma key ja está setada no arquivo de testes. Caso aconteça erro 401 em todas as chamadas,será necessário cadastrar um novo usuario em https://home.openweathermap.org/users/sign_in e pegar o user key.

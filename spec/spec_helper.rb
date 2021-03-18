@@ -13,7 +13,9 @@ RSpec.configure do |config|
   config.before(:all) do
     class HttParty
       include HTTParty
-      base_uri 'http://fakerestapi.azurewebsites.net/api'
+      base_uri 'api.openweathermap.org/data/2.5'
     end
   end
 end
+
+# 1000a5fd40e9a1493f948bb35205b744
